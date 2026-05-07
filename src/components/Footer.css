@@ -1,0 +1,137 @@
+.footer {
+  background-color: var(--color-primary-600);
+  color: var(--color-text-light);
+  padding-top: var(--spacing-xl);
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: var(--spacing-xl);
+  margin-bottom: var(--spacing-xl);
+}
+
+.brand-col {
+  grid-column: span 1;
+}
+
+@media (min-width: 1024px) {
+  .brand-col {
+    grid-column: span 2;
+  }
+  .footer-grid {
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+  }
+}
+
+.footer-logo {
+  color: var(--color-bg-white);
+  margin-bottom: 1rem;
+}
+
+.footer-logo .logo-text {
+  font-size: 1.25rem;
+}
+
+.footer-desc {
+  color: var(--color-bg-white);
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+.social-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.social-icon {
+  width: 36px;
+  height: 36px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  color: var(--color-bg-white);
+}
+
+.social-icon:hover {
+  background: var(--color-accent-600);
+  transform: translateY(-3px);
+}
+
+.footer-heading {
+  color: var(--color-bg-white);
+  font-size: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.footer-links li,
+.footer-contact li,
+.office-hours li {
+  margin-bottom: 0.75rem;
+  color: var(--color-bg-white);
+}
+
+.footer-links a {
+  transition: color 0.2s ease;
+}
+
+.footer-links a:hover {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.footer-contact li {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+}
+
+.contact-icon {
+  color: var(--color-bg-white);
+  margin-top: 0.25rem;
+  flex-shrink: 0;
+  opacity: 0.9;
+}
+
+.office-hours li {
+  display: flex;
+  justify-content: space-between;
+}
+
+.access-hours {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  color: var(--color-bg-white) !important;
+  font-weight: 700;
+}
+
+.footer-bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 1.5rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  text-align: center;
+  color: var(--color-bg-white);
+  font-size: 0.875rem;
+}
+
+@media (min-width: 768px) {
+  .footer-bottom {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.legal-links {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.legal-links a:hover {
+  color: var(--color-bg-white);
+}
