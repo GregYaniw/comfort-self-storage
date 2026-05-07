@@ -1,5 +1,5 @@
 import React from 'react';
-import { Phone, Mail, MapPin, MessageCircle, Instagram } from 'lucide-react';
+import { Phone, Mail, MapPin, MessageCircle, Camera } from 'lucide-react';
 import logoUrl from '../assets/logo.png';
 import './Footer.css';
 
@@ -18,7 +18,7 @@ const Footer = () => {
             </p>
             <div className="social-links">
               <a href="sms:+17057907010" className="social-icon"><MessageCircle size={20} /></a>
-              <a href="https://www.instagram.com/comfortselfstorage/" target="_blank" rel="noopener noreferrer" className="social-icon"><Instagram size={20} /></a>
+              <a href="https://www.instagram.com/comfortselfstorage/" target="_blank" rel="noopener noreferrer" className="social-icon"><Camera size={20} /></a>
             </div>
           </div>
 

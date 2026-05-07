@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Menu, X } from 'lucide-react';
+import { Menu, X, Phone } from 'lucide-react';
 import logoUrl from '../assets/logo.png';
 import './Navbar.css';
 
@@ -26,7 +26,7 @@ const Navbar = () => {
           <a href="#features" className="nav-link">Features</a>
           <a href="#pricing" className="nav-link">Sizes & Pricing</a>
           <a href="#testimonials" className="nav-link">Reviews</a>
-          <button className="btn btn-primary">Book Now</button>
+          <a href="tel:705-790-7010" className="btn btn-primary" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem' }}><Phone size={18} /> Call Now</a>
         </div>
 
         <button 
@@ -42,7 +42,7 @@ const Navbar = () => {
           <a href="#features" className="nav-link" onClick={() => setIsMobileMenuOpen(false)}>Features</a>
           <a href="#pricing" className="nav-link" onClick={() => setIsMobileMenuOpen(false)}>Sizes & Pricing</a>
           <a href="#testimonials" className="nav-link" onClick={() => setIsMobileMenuOpen(false)}>Reviews</a>
-          <button className="btn btn-primary">Book Now</button>
+          <a href="tel:705-790-7010" className="btn btn-primary" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem', justifyContent: 'center' }}><Phone size={18} /> Call Now</a>
         </div>
       )}
     </nav>
