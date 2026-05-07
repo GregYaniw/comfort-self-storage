@@ -16,7 +16,7 @@ const Footer = () => {
               </a>
             </div>
             <p className="footer-desc">
-              Store Your Possessions With Comfort. Premium, secure self-storage solutions.
+              Store Your Possessions With Comfort. Premium, secure self&#8209;storage solutions.
             </p>
             <div className="social-links">
               <a href="sms:+17057907010" className="social-icon"><MessageCircle size={20} /></a>
@@ -26,7 +26,7 @@ const Footer = () => {
             <div style={{ marginTop: '4rem' }}>
               <h4 className="footer-heading">Office Hours</h4>
               <ul className="office-hours">
-                <li style={{ display: 'flex', gap: '2rem' }}><span>Mon - Sun:</span> <span>7:30 AM - 8:00 PM</span></li>
+                <li style={{ display: 'flex', gap: '2rem', justifyContent: 'flex-start' }}><span>Mon - Sun:</span> <span>7:30 AM - 8:00 PM</span></li>
               </ul>
             </div>
           </div>
@@ -59,8 +59,10 @@ const Footer = () => {
                 </ul>
               </div>
             </div>
+          </div>
             
-            <div style={{ marginTop: '2rem', borderRadius: '0.5rem', overflow: 'hidden', boxShadow: 'var(--shadow-sm)' }}>
+          <div className="footer-col map-col">
+            <div style={{ borderRadius: '0.5rem', overflow: 'hidden', boxShadow: 'var(--shadow-sm)', height: '100%' }}>
               <iframe
                 title="Comfort Self Storage Location"
                 src="https://maps.google.com/maps?width=100%25&amp;height=250&amp;hl=en&amp;q=203%20Industrial%20Road,%20Stayner,%20Ontario+(Comfort%20Self%20Storage)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
