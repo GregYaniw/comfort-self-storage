@@ -1,6 +1,6 @@
 import React from 'react';
 import { Phone, Mail, MapPin, MessageCircle, Camera } from 'lucide-react';
-import logoUrl from '../assets/logo.png';
+import Logo from './Logo';
 import './Footer.css';
 
 const Footer = () => {
@@ -11,7 +11,9 @@ const Footer = () => {
           
           <div className="footer-col brand-col">
             <div className="logo-container footer-logo">
-              <img src={logoUrl} alt="Comfort Self Storage" className="logo-img" />
+              <a href="#" style={{ display: 'block', height: '40px' }}>
+                <Logo color="#ffffff" className="logo-img" />
+              </a>
             </div>
             <p className="footer-desc">
               Store Your Possessions With Comfort. Premium, secure, and climate-controlled self-storage solutions.

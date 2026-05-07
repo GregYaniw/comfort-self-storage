@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X, Phone } from 'lucide-react';
-import logoUrl from '../assets/logo.png';
+import Logo from './Logo';
 import './Navbar.css';
 
 const Navbar = () => {
@@ -19,7 +19,9 @@ const Navbar = () => {
     <nav className={`navbar ${isScrolled ? 'scrolled glass' : ''}`}>
       <div className="container navbar-container">
         <div className="logo-container">
-          <img src={logoUrl} alt="Comfort Self Storage" className="logo-img" />
+          <a href="#" style={{ display: 'block', height: '40px' }}>
+            <Logo color={isScrolled ? "var(--color-primary-600)" : "#ffffff"} className="logo-img" />
+          </a>
         </div>
         
         <div className="nav-links desktop-only">
