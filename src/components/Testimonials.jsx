@@ -4,21 +4,21 @@ import './Testimonials.css';
 
 const reviews = [
   {
-    name: 'Sarah Jenkins',
-    role: 'Local Resident',
-    content: 'The cleanest storage facility I have ever used. The climate control gave me peace of mind for my antique furniture. Highly recommend!',
+    name: 'Shyanne Woodcock',
+    role: 'Local Customer',
+    content: 'Josh was kind and helpful and made it comfortable to choose this storage company for all my needs. The units are bigger than competitors for less of a price. Thanks for your help Josh!',
     rating: 5
   },
   {
-    name: 'Mark T.',
-    role: 'Business Owner',
-    content: 'We store our excess inventory here. The 24/7 access and top-notch security make it the perfect extension for our business operations.',
+    name: 'Ashley Plewes',
+    role: 'Local Customer',
+    content: 'Comfort Self Storage saved me! The facility and units were very clean and spacious. I liked how the grounds were locked at night and the extra security cameras gave me a piece of mind.',
     rating: 5
   },
   {
-    name: 'Emily Davis',
-    role: 'Student',
-    content: 'Moving out of my dorm was stressful, but booking a unit online with Comfort Self Storage was incredibly easy. Great prices too!',
+    name: 'Sabine Abt',
+    role: 'Local Customer',
+    content: 'Outstanding customer service from my first email enquiry. The facility is very safe and secure. The individual units are clean and in great shape. I am so pleased to have found Comfort Self Storage!',
     rating: 5
   }
 ];
