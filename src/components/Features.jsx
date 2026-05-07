@@ -13,11 +13,7 @@ const featureList = [
     title: 'Top-Tier Security',
     description: '24/7 video surveillance, gate access control, and bright lighting.'
   },
-  {
-    icon: <Key size={32} />,
-    title: '24/7 Access',
-    description: 'Access your belongings whenever you need them with our secure gate code system.'
-  },
+
   {
     icon: <HeartHandshake size={32} />,
     title: 'Friendly Support',

@@ -30,7 +30,7 @@ const Testimonials = () => {
         <div className="section-header text-center animate-fade-in">
           <span className="subtitle">Reviews</span>
           <h2>What Our Customers Say</h2>
-          <p className="section-desc">Don't just take our word for it. Read why thousands trust us with their belongings.</p>
+          <p className="section-desc">Don't just take our word for it. Read why many trust us with their belongings.</p>
         </div>
 
         <div className="testimonials-grid">

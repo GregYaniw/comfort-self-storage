@@ -16,7 +16,7 @@ const Footer = () => {
               </a>
             </div>
             <p className="footer-desc">
-              Store Your Possessions With Comfort. Premium, secure, and climate-controlled self-storage solutions.
+              Store Your Possessions With Comfort. Premium, secure self-storage solutions.
             </p>
             <div className="social-links">
               <a href="sms:+17057907010" className="social-icon"><MessageCircle size={20} /></a>
@@ -28,7 +28,6 @@ const Footer = () => {
               <ul className="office-hours">
                 <li style={{ display: 'flex', gap: '2rem' }}><span>Mon - Sun:</span> <span>7:30 AM - 8:00 PM</span></li>
               </ul>
-              <div className="access-hours">Gate Access: 24/7</div>
             </div>
           </div>
 

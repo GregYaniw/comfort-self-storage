@@ -24,7 +24,7 @@ const Hero = () => {
           
           <p className="hero-description delay-300">
             Premium self-storage solutions designed for your peace of mind. 
-            Enjoy 24/7 access, state-of-the-art security, and easy online booking.
+            Enjoy state-of-the-art security and easy online booking.
           </p>
           
           <div className="hero-actions delay-300">
