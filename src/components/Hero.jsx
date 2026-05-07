@@ -32,10 +32,15 @@ const Hero = () => {
               <Phone size={20} style={{ marginRight: '8px' }} />
               (705) 790-7010
             </a>
-            <button className="btn btn-outline btn-large glass-btn">
+            <a 
+              href="https://www.google.com/maps/search/?api=1&query=Comfort+Self+Storage+203+Industrial+Road,+Stayner,+Ontario" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="btn btn-outline btn-large glass-btn"
+            >
               <MapPin size={20} style={{ marginRight: '8px' }} />
               Find Our Location
-            </button>
+            </a>
           </div>
         </div>
       </div>
