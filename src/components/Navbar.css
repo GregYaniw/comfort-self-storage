@@ -66,10 +66,12 @@
 
 .navbar.scrolled .nav-link {
   color: var(--color-primary-900);
+  text-shadow: none;
 }
 
 .navbar.scrolled .nav-link:hover {
   color: var(--color-accent-600);
+  text-shadow: none;
 }
 
 .mobile-only {

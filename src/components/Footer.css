@@ -135,3 +135,9 @@
 .legal-links a:hover {
   color: var(--color-bg-white);
 }
+
+.footer-verse {
+  font-style: italic;
+  opacity: 0.8;
+  max-width: 400px;
+}

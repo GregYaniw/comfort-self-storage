@@ -1,17 +1,17 @@
 import React from 'react';
-import { Thermometer, ShieldAlert, Key, Laptop } from 'lucide-react';
+import { MapPin, ShieldAlert, Key, HeartHandshake } from 'lucide-react';
 import './Features.css';
 
 const featureList = [
   {
-    icon: <Thermometer size={32} />,
-    title: 'Climate Controlled',
-    description: 'Keep your sensitive items safe from extreme temperatures and humidity year-round.'
+    icon: <MapPin size={32} />,
+    title: 'Clean & Convenient',
+    description: 'A fully paved facility featuring spotless units and a convenient location to make your move easy.'
   },
   {
     icon: <ShieldAlert size={32} />,
     title: 'Top-Tier Security',
-    description: '24/7 video surveillance, bright lighting, and individually alarmed units.'
+    description: '24/7 video surveillance, gate access control, and bright lighting.'
   },
   {
     icon: <Key size={32} />,
@@ -19,9 +19,9 @@ const featureList = [
     description: 'Access your belongings whenever you need them with our secure gate code system.'
   },
   {
-    icon: <Laptop size={32} />,
-    title: 'Easy Online Booking',
-    description: 'Rent a unit, manage your account, and pay bills entirely online in minutes.'
+    icon: <HeartHandshake size={32} />,
+    title: 'Friendly Support',
+    description: 'Our team is here to answer your questions and ensure a stress-free storage experience.'
   }
 ];
 
